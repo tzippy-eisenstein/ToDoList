@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  todolist:
+    image: todolist
+    build:
+      context: .
+      dockerfile: ./Dockerfile
