@@ -72,6 +72,4 @@ app.MapControllers();
 app.UseCors("AllowAll");
 app.UseSwagger();
 app.UseSwaggerUI();
-
-app.MapGet("/",() => "Server API is runing")
 app.Run();

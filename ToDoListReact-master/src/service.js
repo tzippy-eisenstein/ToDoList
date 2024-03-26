@@ -1,11 +1,8 @@
 import axios from 'axios';
 
-const apiUrl = "http://localhost:5107"
+const apiUrl = "https://localhost:7057"
 
 axios.defaults.baseURL = apiUrl;
-
-
-
 
 export default {
   getTasks: async () => {
