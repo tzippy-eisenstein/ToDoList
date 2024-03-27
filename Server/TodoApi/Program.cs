@@ -72,4 +72,5 @@ app.MapControllers();
 app.UseCors("AllowAll");
 app.UseSwagger();
 app.UseSwaggerUI();
+app.MapGet("/", () => "todolist is running!!");
 app.Run();
