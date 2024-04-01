@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const apiUrl = "http://localhost:5107"
-const apiUrl = process.env.REACT_APP_SERVER
+const apiUrl = "http://localhost:5107"
+// const apiUrl = process.env.REACT_APP_SERVER
 
 
 axios.defaults.baseURL = apiUrl;
